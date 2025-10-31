@@ -1,0 +1,5 @@
+# Ignore editor settings
+.vscode/
+
+# Ignore compiled object files
+*.o
