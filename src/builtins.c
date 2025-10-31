@@ -31,9 +31,11 @@ int lsh_greet(char **args) {
 }
 
 int lsh_clear(char **args) {
-    printf("\033[H\033[J");
+    printf("\033[H\033[J"); // Clears the screen
+    printf("\033[1;36mWelcome to Asif’s Custom Shell 😎\033[0m\n");
     return 1;
 }
+
 
 int lsh_about(char **args) {
     printf("Asif’s Custom Shell v1.0 — built with C and WSL\n");
